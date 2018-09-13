@@ -201,6 +201,8 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Scripts\popper.min.js.map" />
     <Content Include="Scripts\popper.js.map" />
+    <Content Include="Views\Home\Basic.cshtml" />
+    <Content Include="Views\Shared\_Layout1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
