@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BootstrapIntroduction.Models;
 
 namespace BootstrapIntroduction.Controllers
 {
@@ -30,6 +31,16 @@ namespace BootstrapIntroduction.Controllers
         public ActionResult Basic()
         {
             return View();
+        }
+
+        public ActionResult Advanced()
+        {
+            var person = new Person
+            {
+                FirstName = "Uzair",
+                LastName = "Aslam"
+            };
+            return View(person);
         }
     }
 }
